@@ -1,0 +1,21 @@
+Package: pfunctions
+Title: Several personnal functions
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Guyliann",
+           family = "Engels",
+           role = c("aut", "cre"),
+           email = "guyliann.engels@umons.ac.be",
+           comment = c(ORCID = "0000-0001-9514-1014"))
+Description: Several personnal functions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    miniUI,
+    rmarkdown,
+    rstudioapi,
+    rprojroot,
+    shiny
