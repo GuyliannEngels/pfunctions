@@ -1,0 +1,3 @@
+insertpipe <- function() {
+  rstudioapi::insertText(" %>.% ")
+}
