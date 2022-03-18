@@ -1,6 +1,6 @@
 Package: pfunctions
 Title: Several personnal functions
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     person(given = "Guyliann",
            family = "Engels",
@@ -18,4 +18,5 @@ Imports:
     rmarkdown,
     rstudioapi,
     rprojroot,
-    shiny
+    shiny,
+    yaml

@@ -22,7 +22,7 @@ render_all_rmd_project <- function(path = ".", correction = FALSE) {
   rprojroot::find_root(rprojroot::is_rstudio_project, path = path)
 
   # Find all rmd files
-  paths <- list.files(path = path, pattern = "*.Rmd", recursive = TRUE)
+  paths <- list.files(path = path, full.names = TRUE, pattern = "*.Rmd", recursive = TRUE)
   paths_lg <- length(paths)
 
   res <- data.frame(
