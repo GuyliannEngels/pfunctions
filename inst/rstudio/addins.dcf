@@ -1,0 +1,9 @@
+Name: Insert %>.%
+Description: Inserts `%>.%` at the cursor position.
+Binding: insertpipe
+Interactive: false
+
+Name: Check my project
+Description: Check my data science project
+Binding: check_project
+Interactive: false
