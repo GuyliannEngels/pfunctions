@@ -2,6 +2,11 @@
 
 export(is_complete_yaml)
 export(render_all_rmd_project)
+export(strb_detect)
+export(strb_extract)
+export(strb_replace)
+export(strb_replace_all)
+export(strb_subset)
 import(rmarkdown)
 import(rprojroot)
 importFrom(yaml,yaml.load)
